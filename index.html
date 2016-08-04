@@ -1,0 +1,174 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<title>Saurabh Raj</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/my-image.jpg">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+  // Hide div 2 by default
+  $('#back_home').hide();
+  $('#downloads').hide();
+  $('#resume').hide();
+
+  $('#link_downloads').click(function(){ 
+      $('#welcome').hide();
+      $('#home').hide();
+      $('#resume').hide();
+      $('#downloads').show();
+      $('#back_home').show();
+  });
+
+  $('#link_resume').click(function(){ 
+      $('#welcome').hide();
+      $('#home').hide();
+      $('#downloads').hide();
+      $('#resume').show();
+      $('#back_home').show();
+  });
+
+  $('#link_home').click(function(){ 
+      $('#downloads').hide();
+      $('#resume').hide();
+      $('#back_home').hide();
+      $('#welcome').show();
+      $('#home').show();
+  });
+
+});
+</script>
+
+</head>
+
+<body>
+<div id="header">
+	<div id="welcome" class="msg"><br><br><br><br>Welcome<br><br></div>
+	<div id="back_home" class="msg"><br><a href="#" id="link_home"><img src="images/my-image.jpg" height="80" 	width="80"></a> 	</div>
+		
+		<div id="navigation"><br>
+		    <div id="menubar" style="margin: 10px 0 0 20px;"> 
+			<a href="#" style="font-size:28px; text-decoration:none; color:white">Projects</a>
+			
+			
+			<div id="menu" style="background: none;"> 
+                         <img src="images/menubar.jpg" width="4" height="20" style="margin: 0 0 0 0px;">
+			 <img src="images/menubar.jpg" width="4" height="20" style="margin: 0 0 0 160px;">
+			</div>
+			<div id="menu" style="margin-top: -15px;"> 
+			 <a href="#" style="text-decoration:none; color:white">R</a>
+			</div>
+                        <div id="menu" style="background: none; margin-top: -10px;"> 
+                         <img src="images/menubar.jpg" width="4" height="20" style="margin: 0 0 0 0px;">
+			 <img src="images/menubar.jpg" width="4" height="20" style="margin: 0 0 0 160px;">
+			</div>
+				
+			<div id="menu" style="margin-top: -15px;"> 
+			 <a href="#" style="text-decoration:none; color:white">Web Design</a>
+			</div>
+			<div id="menu" style="background: none; margin-top: -10px;"> 
+                         <img src="images/menubar.jpg" width="4" height="20" style="margin: 0 0 0 0px;">
+			 <img src="images/menubar.jpg" width="4" height="20" style="margin: 0 0 0 160px;">
+			</div>
+			<div id="menu" style="margin-top: -15px;"> 
+			 <a href="#" style="text-decoration:none; color:white">Python</a>
+			</div>
+		    </div>
+			<div id="menubar" style="margin: 10px 0 0 290px;"> <a href="#" id="link_downloads" style="font-size:28px; 							text-decoration:none; color:white">Downloads</a> 
+			 </div>
+			<div id="menubar" style="margin:10px 0 0 560px;"> <a href="https://github.com/saur2" 							style="font-size:28px; text-decoration:none; 										color:white">Github</a> 
+			 </div>
+			<div id="menubar" style="margin:10px 0 0 830px;"> <a href="#" id="link_resume" style="font-size:28px; 							text-decoration:none; color:white">Resume</a> 
+			 </div>
+
+
+		 </div>
+		
+	</div>
+
+	<div id="intro_image">
+	<div id="home" style="background-color:white; height:100%; width:100%">
+       	 	<img src="images/my-image.jpg" alt="my-image" height="400" width="400">
+		<div id="intro">
+		       <s2>SAURABH RAJ <br><br></s2>
+ 			
+                       <s4>Indian Statistical Institute, Kolkata.</s4>
+                       <s5><br><br>
+			I am a student currently living in Kolkata, India.<br> My interests 			range from gaming to movies. I am also interested in puzzles and coding.<br><br>
+		       </s5>
+                        <div id="contact"><a href="#" style="text-decoration:none; color:white">Contact via site</a>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="downloads" style="font-size: 16px; color: white; padding: 20px;"> 
+
+		<div id="box" class="top-left">
+			<br><br>Dowload this template.
+			<div id="download">
+        			<div style="width:25%; margin: 0 0 0 -60;">
+			 	<a href="my-website.rar"><img id="clip" src="images/download.jpg"></a>
+			 	</div>
+				<div style="width:25%; margin: 0 0 0 130;">
+				<a href="#"><img id="clip" src="images/page.jpg"></a>
+        			</div>
+			</div>
+		</div>
+
+		<div id="box" class="top-right">
+			<br><br>Download Safehouse 1.0 Folder lock.
+			<div id="download">
+        			<div style="width:25%; margin: 0 0 0 -60px ;">
+				<a href="#"><img id="clip" src="images/download.jpg"></a>
+				</div>
+				<div style="width:25%; margin: 0 0 0 130;">	
+				<a href="#"><img id="clip" src="images/page.jpg"></a>
+        			</div>
+			</div>
+		</div>
+		<div id="box" class="bottom-left">
+			<br><br>CowsNBulls 1.0 Game
+			<div id="download">
+        			<div style="width:25%; margin: 0 0 0 -60;">
+				<a href="#"><img id="clip" src="images/download.jpg"></a>
+				</div>
+				<div style="width:25%; margin: 0 0 0 130;">
+				<a href="#"><img id="clip" src="images/page.jpg"></a>
+        			</div>
+			</div>
+		</div>
+
+		<div id="box" class="bottom-right">
+			<br><br>Coming soon.
+			<div id="download">
+        			<div style="width:25%; margin: 0 0 0 -60;">
+				<a href="#"><img id="clip" src="images/download.jpg"></a>
+				</div>
+				<div style="width:25%; margin: 0 0 0 130;">
+				<a href="#"><img id="clip" src="images/page.jpg"></a>
+        			</div>
+			</div>
+		</div>
+		<div id="circle"></div>
+	
+	</div>
+	
+	<div id="resume">
+
+		<object data="CV.pdf" type="application/pdf" width="100%" height="100%">
+		<br>
+		</object>
+		<br><br>
+		<a href="CV.pdf" style="margin: 0 0 0 250px;background:url(images/slider.jpg); 					color: white; font-size: 16px; text-align: center; 
+					text-decoration: none; padding: 5px 5px 0 5px;">Open full PDF</a>
+
+	</div>
+
+	</div>
+
+	<div id="footer"><p>Make your own website. Download this template, <a href="my-website.rar" download>click here</a></p></div>
+</body>
+</html>
